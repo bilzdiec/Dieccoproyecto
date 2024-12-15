@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoToys 3D - Portafolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #ff8a80;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #ff6f61;
+            border-radius: 5px;
+        }
+        .portfolio {
+            padding: 20px;
+            text-align: center;
+        }
+        .portfolio h2 {
+            margin-bottom: 20px;
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .portfolio-item {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .portfolio-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+        .portfolio-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .portfolio-item h3 {
+            margin: 10px;
+        }
+        .portfolio-item p {
+            margin: 10px;
+            color: #666;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EcoToys 3D</h1>
+        <p>Juguetes y objetos sostenibles con materiales reciclables</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca-de">Acerca de</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <!-- Portafolio -->
+    <section id="portafolio" class="portfolio">
+        <h2>Portafolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="https://novedades.tp3d.com.ar/wp-content/uploads/2018/06/K_TOY1_preview_featured.jpg" alt="Proyecto 1">
+                <h3>Proyecto 1: Juguete Educativo</h3>
+                <p>Un juguete interactivo impreso en 3D..</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://cdn2.myminifactory.com/assets/object-assets/5df281ff0aa3d/images/88e157d4-fe92-44c2-ae91-ddc57852f334.jpg" alt="Proyecto 2">
+                <h3>Proyecto 2: Modelo Personalizado</h3>
+                <p>Un modelo personalizado diseñado según los requisitos de un cliente especial.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://i.etsystatic.com/32616026/r/il/1aa53d/3774053464/il_1080xN.3774053464_sksv.jpg" alt="Proyecto 3">
+                <h3>Proyecto 3: Figura Sostenible</h3>
+                <p>Figura decorativa creada completamente con materiales reciclados.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://conblender.es/wp-content/uploads/2023/04/Los-12-mejores-rompecabezas-impresos-en-3D-para-probar-en.png" alt="Proyecto 4">
+                <h3>Proyecto 4: Rompecabezas 3D</h3>
+                <p>Un rompecabezas educativo que combina diversión y aprendizaje.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://zigsow.jp/img.php?a=a&filename=zigsow_own_item_comment_67430_2_1246678756.jpg" alt="Proyecto 4">
+                <h3>Proyecto 5: Muñeco articulado</h3>
+                <p>Un muñeco articulado.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://conblender.es/wp-content/uploads/2023/04/1682697456_608_Los-12-mejores-rompecabezas-impresos-en-3D-para-probar-en.png" alt="Proyecto 4">
+                <h3>Proyecto 6: PUZZ "ALIEN1</h3>
+                <p>Este rompecabezas de 20 piezas consta de cubos con agujeros en cada uno de sus seis lados y ejes de diferentes formas.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 EcoToys 3D. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
